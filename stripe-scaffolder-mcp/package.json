@@ -1,0 +1,19 @@
+{
+  "name": "stripe-scaffolder-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for generating secure Stripe integration code",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
